@@ -1,0 +1,53 @@
+.ev-ekle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #64b5f6, #9575cd, #ff8a65);
+    min-height: 100vh;
+  }
+  
+  .ev-ekle h1 {
+    color: #fff;
+    font-family: "Playfair Display";
+    margin-bottom: 20px;
+  }
+  
+  .ev-ekle form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .ev-ekle label {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .ev-ekle input[type="text"],
+  .ev-ekle input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .ev-ekle input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .ev-ekle button {
+    padding: 10px;
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ev-ekle button:hover {
+    background-color: #42a5f5;
+  }
+  

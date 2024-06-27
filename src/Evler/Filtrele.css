@@ -1,0 +1,101 @@
+.filtre-form {
+  background-color: rgb(239, 236, 231); /* Arka plan rengini ayarladık */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', Arial, sans-serif; /* Genel font stili */
+  max-width: 900px; /* Form genişliğini artırdık */
+  margin: 10 auto; /* Ortaladı */
+}
+
+.filtre-form h2 {
+  margin-bottom: 20px;
+  font-size: 26px; /* Başlık yazı boyutunu biraz büyüttük */
+  font-weight: bold; /* Başlık yazı kalınlığını artırdık */
+  color: #333; /* Başlık yazı rengi */
+  text-align: center; /* Başlığı ortaladık */
+}
+
+.filtre-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Giriş alanlarını yaymak için */
+}
+
+.filtre-form div {
+  flex: 1 1 45%; /* Her bir giriş alanının genişliğini ayarladık */
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px; /* Girişler arasında sağdan boşluk bırakmak için */
+}
+
+.filtre-form div:last-child {
+  margin-right: 0; /* Son giriş alanında sağ boşluk bırakmamak için */
+}
+
+.filtre-form label {
+  margin: 5px 0;
+  font-size: 18px; /* Etiket yazı boyutunu büyüttük */
+  font-weight: bold; /* Etiket yazı kalınlığını artırdık */
+  color: #555; /* Etiket yazı rengi */
+}
+
+.filtre-form input, .filtre-form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.filtre-form button {
+  padding: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff; /* Buton arka plan rengi */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filtre-form button[type="button"] {
+  background-color: #dc3545; /* Temizleme butonu arka plan rengi */
+}
+
+.filtre-form button:hover {
+  background-color: #0056b3; /* Filtreleme butonu hover rengi */
+}
+
+.filtre-form button[type="button"]:hover {
+  background-color: #c82333; /* Temizleme butonu hover rengi */
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px; /* Butonlar arasında boşluk bırakmak için */
+}
+
+.filtrelebaslik{
+  font-family: "Playfair Display";
+  font-weight: bold;
+  color: rgb(77, 72, 72);
+  font-size: 100%;
+  margin: 5px;
+
+}
+
+.logo2{
+  width: 200px;
+  height: 200px;
+  position:relative;
+  right: 1%;
+  transform: translate(0%, 5%); /* Görsele merkezden hizala */
+  transition: transform 0.3s ease; 
+}

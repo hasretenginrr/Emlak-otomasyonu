@@ -1,0 +1,10 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .button-container .ant-btn {
+    margin-left: 10px; /* İstenirse düğmeler arasında boşluk bırakabilirsiniz */
+  }
+  
